@@ -37,44 +37,50 @@
   }
 }
 
-.card-container {
+.positif {
+  text-align: center;
   border-width: 2px;
   border-color: black;
   border-style: solid;
   border-radius: 10px;
   margin: 10px;
   padding: 10;
+  background-color: rgb(250, 180, 51);
+  width: 150px;
+  height: 150px;
+}
+.sembuh {
+  text-align: center;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 11px;
+  margin: 11px;
+  padding: 11;
+  background-color:rgb(106, 248, 71);
+  width: 150px;
+  height: 150px;
+}
+.meninggal {
+  text-align: center;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 11px;
+  margin: 11px;
+  padding: 11;
+  background-color:rgb(248, 71, 71);
+  width: 150px;
+  height: 150px;
+
 }
 
-body {
-  background: #c0ffee;
-}
-.App{
-  margin: 1em;
-  font-family: "Avenir", "Arial", sans-serif;
-}
-.list {
-  list-style:none;
-}
-.list-item {
-  padding:1em;
+.left{
   display: flex;
-  flex: 1;
-  align-items: center;
-  border: 0.25cm solid #cacaca;
-  margin-bottom: 1cm;
-}
-.list-item-image-container{
-  flex: 1;
+  justify-content: left;
 }
 
-.list-item-image-container > img{
-  height: 4cm;
-}
-.list-item-name {
-  flex: 3;
-}
-.list-item-power {
-  font-weight: bolder;
-  color: #ff0000;
+.center{
+  display: flex;
+  justify-content: center;
 }
